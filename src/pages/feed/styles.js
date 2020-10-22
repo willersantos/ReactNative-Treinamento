@@ -9,22 +9,22 @@ export const Body = styled.View`
 
 export const Aside = styled.View`
         height:100vh;
-        width:16%;
+        width:14%;
         justify-content:center;
         align-itemx:center;
-        margin-left:0.5%;
+        margin-left:0.3%;
 `;
 
 export const LogoPiuPiuwer = styled.Image`
         width:50px;
         height:64px;
-        margin:1rem 0 0 1.5rem;
+        margin:1rem 0 0 0.8rem;
 `;
 
 export const Menu = styled.SafeAreaView`
         justify-content:center;
         margin-top:-0.5rem;
-        padding:1rem 0.5rem;
+        padding:1rem 0.3rem;
 `;
 
 export const BotãoMenuIcon = styled.TouchableOpacity`
@@ -35,7 +35,7 @@ export const BotãoMenuIcon = styled.TouchableOpacity`
         margin:3px;
         justify-content:center;
         align-items:center;
-        margin-left:1.5rem;
+        margin-left:1rem;
 `;
 
 export const BotãoPiu = styled.TouchableOpacity`
@@ -53,7 +53,7 @@ export const BotãoPiu = styled.TouchableOpacity`
         text-align:center;
         justify-content:center;
         align-items:center;
-        margin:1rem 0 0 1rem;
+        margin:1rem 0 0 0;
 `;
 
 export const IconMenu = styled.Image`
@@ -110,7 +110,7 @@ export const Section = styled.ScrollView.attrs(() => ({
 `
         margin-top:1rem;
         height:100vh;
-        width:20vw;
+        width:30vw;
 `;
 
 export const Superior = styled.View`
@@ -226,8 +226,7 @@ export const Rigth = styled.View`
 `;
 
 export const BarraPesquisa = styled.View`
-        position:relative;
-        width: 100%;
+        width: 90%;
         height: 30px;
         background: rgba(0, 0, 0, 0.3);
         border-radius: 30px;
@@ -244,7 +243,7 @@ export const BarraPesquisa = styled.View`
 `;
 
 export const Search = styled.TextInput`
-        width: 100%;
+        width: 90%;
         height: 30px;
         border:0px;
         margin-right:5px;
@@ -256,7 +255,7 @@ export const Search = styled.TextInput`
 `;
 
 export const EspaçoCompartilhado = styled.View`
-        width: 100%;
+        width: 90%;
         height: 70vh;
         background-color: rgba(250, 224, 43, 0.1);
         border-radius: 12px;
