@@ -1,0 +1,11 @@
+[1018/170314.529:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1018/202359.998:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1019/145756.004:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1019/202115.644:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1020/171252.995:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1020/185117.839:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: Tentou-se acessar um processo de saída. (0xc000010a)
+[1020/185118.652:ERROR:process_reader_win.cc(155)] SuspendThread: Acesso negado. (0x5)
+[1020/185118.653:ERROR:exception_snapshot_win.cc(100)] thread ID 9488 not found in process
+[1020/185118.653:ERROR:process_memory_win.cc(73)] ReadMemory at 0xa7283f5050 of 16 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[1020/185118.653:ERROR:exception_snapshot_win.cc(211)] EXCEPTION_POINTERS read failed
+[1020/223353.117:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
