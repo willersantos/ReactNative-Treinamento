@@ -7,10 +7,10 @@ export const Table = styled.ScrollView.attrs(() => ({
 ``;
 
 export const Tr = styled.View`
-    width:530px;
-    height:9rem;
-    flex-direction:column;
-    margin-bottom:2rem;
+        width:100%;
+        height:9rem;
+        flex-direction:column;
+        margin-bottom:2rem;
 `;
 
 export const InfoSuperior = styled.View`
@@ -30,18 +30,20 @@ export const Foto = styled.Image`
         width:40px;
         height:40px;
         border-radius:40px;
+        margin-left:0.5rem;
 `;
 
 export const Image = styled.Image`
         width:25px;
         height:25px;
         border-radius:25px;
-        margin-left:1rem;
+        position:relative;
+        rigth:1rem;
 `;
 
 export const InfoInferior = styled.View`
         flex-direction:row;
-        margin:0 0 0 2.4rem;
+        margin:0 0 0 1rem;
         width:30vw;
 `;
 
@@ -59,7 +61,7 @@ export const UserName = styled.TouchableOpacity`
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         line-height: 11px;
         color: #000000;
         margin-top:5px;
@@ -69,24 +71,24 @@ export const UserEmail = styled.TouchableOpacity`
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         line-height: 13px;
         color: rgba(0, 0, 0, 0.51);
-        margin-top:5px;
+        margin-top:3px;
 `;
 
 export const Time = styled.Text`
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         line-height: 13px;
         color: rgba(0, 0, 0, 0.51);
-        margin: 5px 0.2rem;
+        margin: 3px 0.2rem;
 `;
 
 export const Message = styled.Text`
-        height:3.5rem;
+        height:5rem;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -95,17 +97,7 @@ export const Message = styled.Text`
         text-align: justify;
         color: #000000;
         justify-content:center;
-        margin:0.5rem 2.4rem;
-`;
-
-export const Deleta = styled.TouchableOpacity`
-        width:20px;
-        height:20px;
-        border-radius:20px;
-        background:rgba(0,0,0,0.5);
-        font-size:10px;
-        color:white;
-        font-weigth:bold;
+        margin:0.5rem 1.2rem;
 `;
 
 export const ViewReaction = styled.View`
@@ -119,7 +111,7 @@ export const Options = styled.View`
 
 export const Li = styled.TouchableOpacity`
         height:21px;
-        width:25%;
+        width:22%;
         flex-direction:row;
 `;
 
